@@ -1,0 +1,17 @@
+name : 'testExpress'
+on: push
+jobs:
+  deploy:
+    name: Prueba con Docker
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/chechout@master
+      - name: crear y mandar push a docker
+        uses: docker/build-push-action@v1
+        with:
+          username: ${{ secrets.SECRET_USERNAME }}
+          password: ${{ secrets.SECRET_PASSWORD }}
+          repository : ${{ github.repository }}
+          tag_with_ref: true
+          tag_with_sha: true
+          tags: ${{github.sha}}
