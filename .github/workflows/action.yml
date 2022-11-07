@@ -22,6 +22,6 @@ jobs:
   test_xpress:
     runs-on: ubuntu-22.04
     steps:
-      -  : echo prueba
+      - name : echo prueba
         run: 
           echo "hola Prueba"
