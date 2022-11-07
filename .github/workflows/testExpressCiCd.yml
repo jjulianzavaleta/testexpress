@@ -5,7 +5,7 @@ jobs:
     name: Prueba con Docker
     runs-on: ubuntu-22.04
     steps:
-      - uses: jjulianzavaleta/testexpress@master
+      - uses: jjulianzavaleta/testexpress@main
       - name: crear y mandar push a docker
         uses: docker/build-push-action@v2
         with:
