@@ -5,7 +5,7 @@ jobs:
     name: Prueba con Docker
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/chechout@master
+      - uses: actions/checkout@master
       - name: crear y mandar push a docker
         uses: docker/build-push-action@v1
         with:
