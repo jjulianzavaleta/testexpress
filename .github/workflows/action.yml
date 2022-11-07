@@ -20,8 +20,8 @@ on:
       - main
 jobs:
   test_xpress:
-    runs-on:ubuntu-22.04
+    runs-on: ubuntu-22.04
     steps:
-      - name: echo prueba
+      -  : echo prueba
         run: 
           echo "hola Prueba"
