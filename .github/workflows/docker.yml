@@ -11,8 +11,7 @@ jobs:
         with:
           username: ${{ secrets.SECRET_USERNAME }}
           password: ${{ secrets.SECRET_PASSWORD }}
-          registry: docker.pkg.github.com
-          repository:  jjulianzavaleta/testexpress
+          repository: ${{ github.testexpress}}
           tag_with_ref: true
           tag_with_sha: true
           tags: ${{github.sha}}
