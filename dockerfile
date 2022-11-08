@@ -1,6 +1,6 @@
 FROM php:7.3-apache
 ADD index.html /var/www/html
-EXPOSE 80
+# EXPOSE 80
 
 # RUN apt-get update && apt-get install gnupg  -y \ 
 #     && curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - \

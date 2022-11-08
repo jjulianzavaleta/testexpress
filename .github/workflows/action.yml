@@ -1,27 +1,27 @@
-name : 'Prueba'
-# description: 'Saludar a alguien y guardar la fecha'
-# inputs:
-#   who-to-greet: # id of intput
-#     description: 'A quien saludar'
-#     required: true
-#     default: 'Prueba'
-# outputs:
-#   time: # id of output
-#     description: 'La fecha en la que nos conocimos'
-# runs:
-#   using: 'docker'
-#   image: 'Dockerfile'
-#   args:
-#     -${{ inputs.who-to-greet}} 
+# name : 'Prueba'
+# # description: 'Saludar a alguien y guardar la fecha'
+# # inputs:
+# #   who-to-greet: # id of intput
+# #     description: 'A quien saludar'
+# #     required: true
+# #     default: 'Prueba'
+# # outputs:
+# #   time: # id of output
+# #     description: 'La fecha en la que nos conocimos'
+# # runs:
+# #   using: 'docker'
+# #   image: 'Dockerfile'
+# #   args:
+# #     -${{ inputs.who-to-greet}} 
 
-on:
-  push:
-    branches:
-      - main
-jobs:
-  test_xpress:
-    runs-on: ubuntu-22.04
-    steps:
-      - name : echo prueba
-        run: 
-          echo "hola Prueba"
+# on:
+#   push:
+#     branches:
+#       - main
+# jobs:
+#   test_xpress:
+#     runs-on: ubuntu-22.04
+#     steps:
+#       - name : echo prueba
+#         run: 
+#           echo "hola Prueba"
