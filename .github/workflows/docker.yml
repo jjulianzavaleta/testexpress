@@ -10,14 +10,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Login to Docker Hub
-        uses: jjulianz/login-action@v2
+        uses: testexpress/login-action@v2
         with:
           username: ${{ secrets.SECRET_USERNAME }}
           password: ${{ secrets.SECRET_PASSWORD }}
       - name: Set up Docker Buildx
-        uses: jjulianz/setup-buildx-action@v2
+        uses: docker/setup-buildx-action@v2
       - name: Build and push
-        uses: jjulianz/build-push-action@v3
+        uses: docker/build-push-action@v3
         with:
           context: .
           file: ./dockerfile
