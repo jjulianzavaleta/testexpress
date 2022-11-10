@@ -29,3 +29,7 @@ RUN docker-php-ext-install zip
 RUN docker-php-ext-install mbstring pdo pdo_mysql mysqli\
     && pecl install sqlsrv pdo_sqlsrv xdebug  \
     && docker-php-ext-enable sqlsrv pdo_sqlsrv xdebug
+
+RUN 
+
+RUN wget https://es.wordpress.org/wordpress-6.1.tar.gz

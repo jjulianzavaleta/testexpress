@@ -10,7 +10,7 @@
 #       - ./wordpress:/var/www/html
 #       - ./docker/apache:/temp/apache2
 #     ports:
-#       - "8080:80"
+#       - "80:80"
 #   mariadb:
 #     image: mariadb:10.3
 #     # restart: always
