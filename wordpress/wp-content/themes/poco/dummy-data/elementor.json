@@ -1,0 +1,138 @@
+{
+    "default_generic_fonts": "Sans-serif",
+    "container_width": {
+        "unit": "px",
+        "size": "1290",
+        "sizes": []
+    },
+    "viewport_md": "",
+    "viewport_lg": "",
+    "system_colors": [
+        {
+            "_id": "primary",
+            "title": "Primary",
+            "color": "#FFC222"
+        },
+        {
+            "_id": "secondary",
+            "title": "Secondary",
+            "color": "#00A149"
+        },
+        {
+            "_id": "text",
+            "title": "Body",
+            "color": "#808080"
+        },
+        {
+            "_id": "accent",
+            "title": "Heading",
+            "color": "#1E1D23"
+        }
+    ],
+    "custom_colors": [
+        {
+            "_id": "1d12e908",
+            "title": "Light",
+            "color": "#999999"
+        },
+        {
+            "_id": "76261577",
+            "title": "Color Border",
+            "color": "#E5E5E5"
+        },
+        {
+            "_id": "74ad7d3c",
+            "title": "Saved Color #3",
+            "color": "#7A7A7A"
+        },
+        {
+            "_id": "2154a27d",
+            "title": "Saved Color #4",
+            "color": "#61CE70"
+        },
+        {
+            "_id": "1401abc0",
+            "title": "Saved Color #5",
+            "color": "#4054B2"
+        },
+        {
+            "_id": "5bdd244e",
+            "title": "Saved Color #6",
+            "color": "#23A455"
+        },
+        {
+            "_id": "48e5bc8c",
+            "title": "Saved Color #7",
+            "color": "#000"
+        },
+        {
+            "_id": "26c59e90",
+            "title": "Saved Color #8",
+            "color": "#FFF"
+        }
+    ],
+    "system_typography": [
+        {
+            "_id": "primary",
+            "title": "Primary Headline",
+            "typography_typography": "custom"
+        },
+        {
+            "_id": "secondary",
+            "title": "Secondary Headline",
+            "typography_typography": "custom"
+        },
+        {
+            "_id": "text",
+            "title": "Body Text",
+            "typography_typography": "custom"
+        },
+        {
+            "_id": "accent",
+            "title": "Accent Text",
+            "typography_typography": "custom"
+        }
+    ],
+    "site_name": "poco",
+    "site_description": "Just another WordPress site",
+    "page_title_selector": "h1.entry-title",
+    "activeItemIndex": 1,
+    "custom_typography": [],
+    "__globals__": {
+        "button_typography_typography": "",
+        "button_text_color": "globals\/colors?id=accent",
+        "button_background_color": ""
+    },
+    "button_background_color": "#FFC222",
+    "button_border_radius": {
+        "unit": "px",
+        "top": "8",
+        "right": "8",
+        "bottom": "8",
+        "left": "8",
+        "isLinked": true
+    },
+    "button_hover_text_color": "#FFFFFF",
+    "button_padding": {
+        "unit": "px",
+        "top": "20",
+        "right": "45",
+        "bottom": "20",
+        "left": "45",
+        "isLinked": false
+    },
+    "button_typography_typography": "custom",
+    "button_typography_text_transform": "uppercase",
+    "button_typography_line_height": {
+        "unit": "em",
+        "size": 1,
+        "sizes": []
+    },
+    "button_typography_font_size": {
+        "unit": "px",
+        "size": 14,
+        "sizes": []
+    },
+    "button_hover_background_color": "#EEAC00",
+    "button_typography_font_weight": "700"
+}

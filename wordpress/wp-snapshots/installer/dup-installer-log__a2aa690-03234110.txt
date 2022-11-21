@@ -1,0 +1,1450 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 10:03:05
+* VERSION: 1.4.1
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.30                                |7.3.33
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2022-06-03 23:41:10
+WP VERSION__________: 5.7.2
+DUP VERSION_________: 1.4.1
+DB__________________: 10.3.17
+DB TABLES___________: 122
+DB ROWS_____________: 2,111,608
+DB FILE SIZE________: 459.13MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.33 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.52 (Debian)
+DOC ROOT____________: "/var/www/html"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://10.152.1.15/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/var/www/html/chimuxpress_20210825_[HASH]_20220603234110_archive.zip"
+SIZE________________: 295.19MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/var/www/html/chimuxpress_20210825_[HASH]_20220603234110_archive.zip"
+SIZE________________: 295.19MBFile timestamp set to Current: 2022-11-08 22:23:38
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 10:23:46 - RUNTIME: 1241.1690 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/2002): No such file or directory [CODE:2|FILE:/var/www/html/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: No such file or directory[ERRNO:2002]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/2002): No such file or directory [CODE:2|FILE:/var/www/html/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: No such file or directory[ERRNO:2002]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 11:30:16
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.36 -- Build Server: 10.3.17
+FILE SIZE:	dup-database__[HASH].sql (197.23MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/var/www/html/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+Skipping delimiter query
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	1261
+
+api_logs: (17238)
+customer: (136)
+order_item: (0)
+store: (11)
+usuarios: (2)
+wp_ac_abandoned_cart_history_lite: (218)
+wp_ac_email_templates_lite: (1)
+wp_ac_guest_abandoned_cart_history_lite: (211)
+wp_ac_sent_history_lite: (258)
+wp_actionscheduler_actions: (1057)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (6)
+wp_actionscheduler_logs: (3188)
+wp_admin_columns: (2)
+wp_berocket_termmeta: (0)
+wp_cli_cookie_scan: (0)
+wp_cli_cookie_scan_categories: (0)
+wp_cli_cookie_scan_cookies: (0)
+wp_cli_cookie_scan_url: (0)
+wp_cli_scripts: (4)
+wp_commentmeta: (0)
+wp_comments: (40142)
+wp_duplicator_packages: (0)
+wp_e_events: (0)
+wp_e_submissions: (29)
+wp_e_submissions_actions_log: (29)
+wp_e_submissions_values: (354)
+wp_eum_logs: (0)
+wp_gf_draft_submissions: (0)
+wp_gf_entry: (33)
+wp_gf_entry_meta: (305)
+wp_gf_entry_notes: (45)
+wp_gf_form: (2)
+wp_gf_form_meta: (2)
+wp_gf_form_revisions: (0)
+wp_gf_form_view: (322)
+wp_imagify_files: (0)
+wp_imagify_folders: (0)
+wp_links: (0)
+wp_niubiz_pagoefectivo: (132)
+wp_niubiz_payment: (0)
+wp_options: (1305)
+wp_pmxi_files: (1)
+wp_pmxi_history: (0)
+wp_pmxi_images: (0)
+wp_pmxi_imports: (1)
+wp_pmxi_posts: (0)
+wp_pmxi_templates: (0)
+wp_postmeta: (1052297)
+wp_posts: (16915)
+wp_revslider_css: (109)
+wp_revslider_css_bkp: (47)
+wp_revslider_layer_animations: (0)
+wp_revslider_layer_animations_bkp: (0)
+wp_revslider_navigations: (0)
+wp_revslider_navigations_bkp: (0)
+wp_revslider_sliders: (0)
+wp_revslider_sliders_bkp: (0)
+wp_revslider_slides: (0)
+wp_revslider_slides_bkp: (0)
+wp_revslider_static_slides: (0)
+wp_revslider_static_slides_bkp: (0)
+wp_shortpixel_folders: (0)
+wp_shortpixel_meta: (0)
+wp_smush_dir_images: (0)
+wp_social_users: (1)
+wp_statistics_exclusions: (0)
+wp_statistics_historical: (0)
+wp_statistics_pages: (17439)
+wp_statistics_search: (24229)
+wp_statistics_useronline: (0)
+wp_statistics_visit: (926)
+wp_statistics_visitor: (78801)
+wp_statistics_visitor_relationships: (0)
+wp_term_relationships: (305)
+wp_term_taxonomy: (57)
+wp_termmeta: (200)
+wp_terms: (57)
+wp_tm_taskmeta: (0)
+wp_tm_tasks: (0)
+wp_usermeta: (118066)
+wp_users: (3185)
+wp_watu_answer: (68)
+wp_watu_grading: (2)
+wp_watu_master: (2)
+wp_watu_poll_answers: (1075)
+wp_watu_question: (12)
+wp_watu_takings: (77)
+wp_wc_admin_note_actions: (95)
+wp_wc_admin_notes: (86)
+wp_wc_category_lookup: (22)
+wp_wc_customer_lookup: (1122)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (35062)
+wp_wc_order_stats: (10239)
+wp_wc_order_tax_lookup: (9272)
+wp_wc_product_attributes_lookup: (0)
+wp_wc_product_download_directories: (2)
+wp_wc_product_meta_lookup: (104)
+wp_wc_rate_limits: (0)
+wp_wc_reserved_stock: (95)
+wp_wc_tax_rate_classes: (4)
+wp_wc_webhooks: (0)
+wp_wcpdf_invoice_number: (14948)
+wp_woocommerce_api_keys: (1)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (614611)
+wp_woocommerce_order_items: (76216)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (16)
+wp_woocommerce_shipping_zone_locations: (1)
+wp_woocommerce_shipping_zone_methods: (2)
+wp_woocommerce_shipping_zones: (1)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (1)
+wp_wpfm_backup: (0)
+wp_yith_wcwl: (648)
+wp_yith_wcwl_lists: (607)
+Removed '3990' cache/transient rows
+
+INSERT DATA RUNTIME: 853.9893 sec.
+STEP-2 COMPLETE @ 11:44:31 - RUNTIME: 854.8182 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 11:49:16
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "CHIMU XPRESS"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/xpress.chimuagropecuaria.com.pe/public_html"
+path_new______________: "/var/www/html"
+siteurl_______________: "http://10.152.1.15:8080"
+url_old_______________: "https://xpress.chimuagropecuaria.com.pe"
+url_new_______________: "http://10.152.1.15:8080"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: "admin@gmail.com"
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "api_logs"________________________________________[ROWS: 17238][PG:   5][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "customer"________________________________________[ROWS:   136][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "order_item"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "store"___________________________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "usuarios"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_ac_abandoned_cart_history_lite"_______________[ROWS:   218][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_ac_email_templates_lite"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_ac_guest_abandoned_cart_history_lite"_________[ROWS:   211][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_ac_sent_history_lite"_________________________[ROWS:   258][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:  1057][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:  3188][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_admin_columns"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_berocket_termmeta"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cli_cookie_scan"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cli_cookie_scan_categories"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cli_cookie_scan_cookies"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cli_cookie_scan_url"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cli_scripts"__________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS: 40142][PG:  12][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_events"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions"________________________________[ROWS:    29][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_e_submissions_actions_log"____________________[ROWS:    29][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_e_submissions_values"_________________________[ROWS:   354][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_eum_logs"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_draft_submissions"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_entry"_____________________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_gf_entry_meta"________________________________[ROWS:   305][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_gf_entry_notes"_______________________________[ROWS:    45][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_gf_form"______________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_gf_form_meta"_________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_gf_form_revisions"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gf_form_view"_________________________________[ROWS:   322][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_imagify_files"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_imagify_folders"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_niubiz_pagoefectivo"__________________________[ROWS:   132][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_niubiz_payment"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:  1305][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_pmxi_files"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_pmxi_history"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmxi_images"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmxi_imports"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_pmxi_posts"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmxi_templates"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:1052297][PG: 301][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS: 16915][PG:   5][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_revslider_css"________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_revslider_css_bkp"____________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_layer_animations_bkp"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders_bkp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides_bkp"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_shortpixel_folders"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_shortpixel_meta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_smush_dir_images"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_social_users"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_statistics_exclusions"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_statistics_historical"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_statistics_pages"_____________________________[ROWS: 17439][PG:   5][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_statistics_search"____________________________[ROWS: 24229][PG:   7][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_statistics_useronline"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_statistics_visit"_____________________________[ROWS:   926][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_statistics_visitor"___________________________[ROWS: 78801][PG:  23][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_statistics_visitor_relationships"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   305][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    57][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:   200][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    57][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_tm_taskmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_tm_tasks"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:118066][PG:  34][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:  3185][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_watu_answer"__________________________________[ROWS:    68][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_watu_grading"_________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_watu_master"__________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_watu_poll_answers"____________________________[ROWS:  1075][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_watu_question"________________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_watu_takings"_________________________________[ROWS:    77][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    95][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    86][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:  1122][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS: 35062][PG:  11][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS: 10239][PG:   3][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:  9272][PG:   3][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_wc_product_attributes_lookup"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_download_directories"______________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:   104][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_wc_rate_limits"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:    95][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wcpdf_invoice_number"_________________________[ROWS: 14948][PG:   5][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:614611][PG: 176][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS: 76216][PG:  22][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_wpfm_backup"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yith_wcwl"____________________________________[ROWS:   648][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+
+EVALUATE TABLE: "wp_yith_wcwl_lists"______________________________[ROWS:   607][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/xpress.chimuagropecuaria.com.pe/public_html" => "/var/www/html"
+	SEARCH  2:"\/var\/www\/xpress.chimuagropecuaria.com.pe\/public_html" => "\/var\/www\/html"
+	SEARCH  3:"%2Fvar%2Fwww%2Fxpress.chimuagropecuaria.com.pe%2Fpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  4:"\var\www\xpress.chimuagropecuaria.com.pe\public_html" => "/var/www/html"
+	SEARCH  5:"\\var\\www\\xpress.chimuagropecuaria.com.pe\\public_html" => "\/var\/www\/html"
+	SEARCH  6:"%5Cvar%5Cwww%5Cxpress.chimuagropecuaria.com.pe%5Cpublic_html" => "%2Fvar%2Fwww%2Fhtml"
+	SEARCH  7:"//xpress.chimuagropecuaria.com.pe" ===============> "//10.152.1.15:8080"
+	SEARCH  8:"\/\/xpress.chimuagropecuaria.com.pe" =============> "\/\/10.152.1.15:8080"
+	SEARCH  9:"%2F%2Fxpress.chimuagropecuaria.com.pe" ===========> "%2F%2F10.152.1.15%3A8080"
+	SEARCH 10:"https://10.152.1.15:8080" ========================> "http://10.152.1.15:8080"
+	SEARCH 11:"https:\/\/10.152.1.15:8080" ======================> "http:\/\/10.152.1.15:8080"
+	SEARCH 12:"https%3A%2F%2F10.152.1.15%3A8080" ================> "http%3A%2F%2F10.152.1.15%3A8080"
+--------------------------------------
+SCANNED:	Tables:122 	|	 Rows:2140984 	|	 Cells:10535746 
+UPDATED:	Tables:14 	|	 Rows:62134 	|	 Cells:62403 
+ERRORS:		0 
+RUNTIME:	387.915200 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+- New username 'admin' was created successfully allong with MU usermeta.
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""mariadb""
+	UPDATE WP_CACHE false
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 11:55:45 - RUNTIME: 389.1137 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

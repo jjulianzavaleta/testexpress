@@ -1,0 +1,8 @@
+/* Start custom CSS for text-editor, class: .elementor-element-be4c4d0 */.product_type_simple {
+    border-radius: 5px;
+    color: var(--secondary);
+}
+
+.product_type_simple:hover {
+    color: #ffffff;
+}/* End custom CSS */

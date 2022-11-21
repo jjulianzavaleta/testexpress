@@ -1,0 +1,89 @@
+{
+    "logo_light": {
+        "url": "https:\/\/demo2wpopal.b-cdn.net\/poco\/wp-content\/uploads\/2020\/10\/logo_svg.svg",
+        "id": "3406",
+        "height": "0",
+        "width": "0",
+        "thumbnail": "https:\/\/demo2wpopal.b-cdn.net\/poco\/wp-content\/uploads\/2020\/10\/logo_svg.svg"
+    },
+    "logo_size": {
+        "width": "",
+        "height": "",
+        "units": "px"
+    },
+    "body-background": {
+        "background-color": "",
+        "background-repeat": "",
+        "background-size": "",
+        "background-attachment": "",
+        "background-position": "",
+        "background-image": "",
+        "media": {
+            "id": "",
+            "height": "",
+            "width": "",
+            "thumbnail": ""
+        }
+    },
+    "typography-body": {
+        "font-family": "",
+        "font-options": "",
+        "google": "1",
+        "font-weight": "",
+        "font-style": "",
+        "subsets": "",
+        "font-size": "",
+        "line-height": "",
+        "word-spacing": "",
+        "letter-spacing": ""
+    },
+    "typography-heading": {
+        "font-family": "",
+        "font-options": "",
+        "google": "1",
+        "font-weight": "",
+        "font-style": "",
+        "subsets": "",
+        "font-size": "",
+        "line-height": "",
+        "word-spacing": "",
+        "letter-spacing": ""
+    },
+    "breadcrumb-default-color": "",
+    "breadcrumb-default-bg": {
+        "background-color": "",
+        "background-repeat": "no-repeat",
+        "background-size": "cover",
+        "background-attachment": "",
+        "background-position": "center center",
+        "background-image": "https:\/\/demo2wpopal.b-cdn.net\/poco\/wp-content\/uploads\/2020\/09\/breadcrumb1.jpg",
+        "media": {
+            "id": "3189",
+            "height": "289",
+            "width": "1920",
+            "thumbnail": "https:\/\/demo2wpopal.b-cdn.net\/poco\/wp-content\/uploads\/2020\/09\/breadcrumb1-150x150.jpg"
+        }
+    },
+    "blog-style": "standard",
+    "social_text": [],
+    "social-share": "1",
+    "social-share-facebook": "1",
+    "social-share-twitter": "1",
+    "social-share-linkedin": "1",
+    "social-share-google-plus": "1",
+    "social-share-pinterest": "1",
+    "social-share-email": "1",
+    "woocommerce_product_single_width": {
+        "width": "800px",
+        "units": "px"
+    },
+    "woocommerce_product_thumbnail_width": {
+        "width": "450px",
+        "units": "px"
+    },
+    "woocommerce_archive_layout": "default",
+    "woocommerce_archive_sidebar": "right",
+    "wocommerce_single_style": "2",
+    "single-product-gallery-layout": "horizontal",
+    "single-product-content-meta": "&lt;div class=\"product-extra-info\"&gt;\r\n\r\n&lt;div&gt;\r\n\r\n&lt;ul&gt;&lt;li&gt;Free global shipping on all orders&lt;\/li&gt;&lt;li&gt;30 days easy returns if you change your mind&lt;\/li&gt;&lt;li&gt;Order before noon for same day dispatch&lt;\/li&gt;&lt;\/ul&gt;\r\n\r\n&lt;\/div&gt;\r\n\r\n&lt;div class=\"brand-wrap\"&gt;\r\n\r\n&lt;h5 class=\"title-brand\"&gt;Guaranteed Safe Checkout&lt;\/h5&gt;\r\n\r\n&lt;img src=\"https:\/\/demo2wpopal.b-cdn.net\/poco\/wp-content\/uploads\/2020\/08\/trust-symbols.png\" class=\"image-responsive\"&gt;&lt;\/div&gt;\r\n\r\n&lt;\/div&gt;"
+}

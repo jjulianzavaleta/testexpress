@@ -1,0 +1,20 @@
+2022-05-10T04:01:45+00:00 CRITICAL Uncaught Exception: Could not resolve host: oauth.vk.com in /var/www/xpress.chimuagropecuaria.com.pe/public_html/wp-content/plugins/super-socializer/library/Vkontakte/Vkontakte.php:540
+Stack trace:
+#0 /var/www/xpress.chimuagropecuaria.com.pe/public_html/wp-content/plugins/super-socializer/library/Vkontakte/Vkontakte.php(202): Vkontakte->curl('https://oauth.v...')
+#1 /var/www/xpress.chimuagropecuaria.com.pe/public_html/wp-content/plugins/super-socializer/super_socializer.php(1588): Vkontakte->authenticate('4/0AX4XfWhcAODR...')
+#2 /var/www/xpress.chimuagropecuaria.com.pe/public_html/wp-includes/class-wp-hook.php(292): the_champ_connect(Object(WP))
+#3 /var/www/xpress.chimuagropecuaria.com.pe/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/xpress.chimuagropecuaria.com.pe/public_html/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /var/www/xpress.chimuagropecuaria.com.pe/public_html/wp-includes/class-wp.php(388): do_action_ref_array('parse_request', Array)
+ en /var/www/xpress.chimuagropecuaria.com.pe/public_html/wp-content/plugins/super-socializer/library/Vkontakte/Vkontakte.php en la línea 540
+
+2022-05-10T04:02:20+00:00 CRITICAL Uncaught Exception: Could not resolve host: oauth.vk.com in /var/www/xpress.chimuagropecuaria.com.pe/public_html/wp-content/plugins/super-socializer/library/Vkontakte/Vkontakte.php:540
+Stack trace:
+#0 /var/www/xpress.chimuagropecuaria.com.pe/public_html/wp-content/plugins/super-socializer/library/Vkontakte/Vkontakte.php(202): Vkontakte->curl('https://oauth.v...')
+#1 /var/www/xpress.chimuagropecuaria.com.pe/public_html/wp-content/plugins/super-socializer/super_socializer.php(1588): Vkontakte->authenticate('4/0AX4XfWhcAODR...')
+#2 /var/www/xpress.chimuagropecuaria.com.pe/public_html/wp-includes/class-wp-hook.php(292): the_champ_connect(Object(WP))
+#3 /var/www/xpress.chimuagropecuaria.com.pe/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/xpress.chimuagropecuaria.com.pe/public_html/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /var/www/xpress.chimuagropecuaria.com.pe/public_html/wp-includes/class-wp.php(388): do_action_ref_array('parse_request', Array)
+ en /var/www/xpress.chimuagropecuaria.com.pe/public_html/wp-content/plugins/super-socializer/library/Vkontakte/Vkontakte.php en la línea 540
+
